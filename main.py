@@ -3,9 +3,9 @@ def main():
     filecontents = get_text(book_path)
     word_count = get_wc(filecontents)
     char_count = get_char_count(filecontents)
-    print(filecontents)
-    print(f"The text word count is: {word_count}")
-    print(char_count)
+    # print(filecontents)
+    # print(f"The text word count is: {word_count}")
+    # print(char_count)
     print_report(book_path, word_count, char_count)
     
 def get_text(path):
